@@ -9,7 +9,7 @@ ADD https://staticdownloads.site24x7.com/apminsight/agents/apminsight-javaagent.
 RUN true 
 RUN mkdir -p /tmp/apm
 RUN unzip /tmp/apminsight-javaagent.zip -d /tmp/apm
-RUN sed -i 's/license.key=/license.key=eu_503d9c5d9924d319837a22553faedc37/g' /tmp/apm/apminsight.conf
+RUN sed -i 's/license.key=/license.key=SITE24x7_APM_KEY/g' /tmp/apm/apminsight.conf
 RUN sed -i 's/application.name=My Application/application.name=springbootpetclinic/g' /tmp/apm/apminsight.conf
 RUN mkdir -p /home/apm
 RUN mv /tmp/apm /home 
