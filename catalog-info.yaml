@@ -7,6 +7,8 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     harness.io/workspace-url: |
       labelA: https://app.harness.io/ng/account/8Xl8tQSaSeyvtccXETil_Q/module/iacm/orgs/CoforgeCIMSPE/projects/CoforgeIDPPE/workspaces/CoforgeIDPPE/resources
+    harness.io/pipelines: |
+      CI:  https://app.harness.io/ng/account/8Xl8tQSaSeyvtccXETil_Q/module/ci/orgs/CoforgeCIMSPE/projects/CoforgeIDPPE/pipelines/CIpipelinepet/pipeline-studio/?storeType=INLINE
   tags:
     - java
   links:
