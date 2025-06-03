@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: petclinic-servive
+  description: Service is coming from Harness CI
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    harness.io/workspace-url: |
+      labelA: https://app.harness.io/ng/account/8Xl8tQSaSeyvtccXETil_Q/module/iacm/orgs/CoforgeCIMSPE/projects/CoforgeIDPPE/workspaces/CoforgeIDPPE/resources
+  tags:
+    - java
+  links:
+    - url: http://4.156.31.217
+      title: petclinic Application
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: service
+  lifecycle: production
+  owner: Manas Shukla
+  system: project-coforge-idp
